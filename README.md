@@ -10,7 +10,7 @@
 
     docker build -t="pilwon/test-nodejs-bower-grunt" github.com/pilwon/test-nodejs-bower-grunt
 
-OR
+or
 
     docker pull pilwon/test-nodejs-bower-grunt
 
@@ -21,7 +21,7 @@ OR
     PORT=$(docker port $APP 3000 | awk -F: '{ print $2 }')
     echo "Open http://localhost:$PORT/"
 
-OR
+or
 
     docker run -d --net="host" -e="PORT=80" pilwon/test-nodejs-bower-grunt
 
