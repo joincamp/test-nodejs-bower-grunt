@@ -5,7 +5,7 @@ var express = require('express');
 
 function main() {
   var app = express();
-  var port = +process.env.PORT || 3000;
+  var port = +process.env.PORT || 8080;
 
   app.get('/', function (req, res) {
     res.send(util.format('%s:%d', os.hostname(), port));
