@@ -3,5 +3,6 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json')
   });
 
+  grunt.registerTask('build', []);
   grunt.registerTask('default', []);
 };
