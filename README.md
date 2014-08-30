@@ -17,8 +17,8 @@ or
 
 ## Run Docker container
 
-    APP=$(docker run -d -p 3000 pilwon/test-nodejs-bower-grunt)
-    PORT=$(docker port $APP 3000 | awk -F: '{ print $2 }')
+    APP=$(docker run -d -p 8080 pilwon/test-nodejs-bower-grunt)
+    PORT=$(docker port $APP 8080 | awk -F: '{ print $2 }')
     echo "Open http://localhost:$PORT/"
 
 or
