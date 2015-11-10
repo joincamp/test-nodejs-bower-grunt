@@ -15,4 +15,4 @@ deployment:
   hub:
     branch: master
     commands:
-      - $DEPLOY
+      - curl -H "Content-Type: application/json" --data '{"build": true}' -X POST $TRIGGER_URL
