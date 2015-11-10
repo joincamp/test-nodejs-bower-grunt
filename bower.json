@@ -1,7 +1,0 @@
-{
-  "name": "test-nodejs-bower-grunt",
-  "version": "0.1.0",
-  "dependencies": {
-    "bootstrap": "~3.2.0"
-  }
-}
